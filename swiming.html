@@ -5,50 +5,122 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
-
+    <link rel="stylesheet" href="swiming.css">
   <title>swiming 2026</title>
 </head>
 <body>
 
-<nav class="navbar navbar-expand-lg bg-body-tertiary">
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg bg-dark border-bottom border-body" data-bs-theme="dark">
   <div class="container-fluid">
-    <a class="navbar-brand" href="app.html"><h1>ARTISTIC SWIMMING WORLD CUP 2026</h1></a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+    <a class="navbar-brand" href="main.html">News</a>
+
+    <button class="navbar-toggler" type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
+
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
         <li class="nav-item">
-          <a class="nav-link active" href="https://www.skyscanner.net/?gclsrc=aw.ds&&utm_source=google&utm_medium=cpc&utm_campaign=XY-Flights-Search-EN-Competitor&utm_term=wego&associateID=SEM_FLI_19465_00000&campaign_id=21722220700&adgroupid=168158420312&keyword_id=kwd-187820536&gad_source=1&gad_campaignid=21722220700&gbraid=0AAAAAD3oWFhOSBwee5i7fjse1gENtSZ2d&gclid=CjwKCAiAncvMBhBEEiwA9GU_fu1NZKI9zoffP5P35ky4Bh3O6h4gOtpMCy_7GOp5wkfevLReHy5UcxoC9-UQAvD_BwE"><h4>tickets</h4></a>
+          <a class="nav-link active" href="main.html">Home</a>
         </li>
+
         <li class="nav-item">
-          <a class="nav-link active" href="FINALES.HTML"><h4>shop</h4></a>
+          <a class="nav-link" href="box.html">Box</a>
         </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="basketball.html">Basketball</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="swiming.html">Swimming</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#">Football</a>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            More
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Gambling</a></li>
+            <li><a class="dropdown-item" href="#">Support</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">About us</a></li>
+          </ul>
+        </li>
+
       </ul>
+
+      <div class="d-flex ms-auto align-items-center">
+          <form class="d-flex me-3" role="search" action="#" method="get">
+            <input class="form-control me-2" type="search" name="q" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+
+  <a href="login.html" class="btn btn-outline-light">Log In</a>
+</div>
     </div>
   </div>
 </nav>
 
-<div id="carouselExample" class="carousel slide">
+
+
+<style>
+.hero-carousel img{
+  height: 200px;
+  object-fit: cover;
+}
+</style>
+
+<div id="carouselExampleAutoplaying"
+     class="carousel slide hero-carousel"
+     data-bs-ride="carousel"
+     data-bs-interval="2500">
+
   <div class="carousel-inner">
+
+  
     <div class="carousel-item active">
-      <img src="https://swimswam.com/wp-content/uploads/2025/07/Jack-Alexy-By-Jack-Spitser-DSC03103-Enhanced-NR-scaled.jpg" class="d-block w-100" alt="">
+      <img src="https://swimswam.com/wp-content/uploads/2025/07/Jack-Alexy-By-Jack-Spitser-DSC03103-Enhanced-NR-scaled.jpg"
+           class="d-block w-100" alt="Boxing gloves">
     </div>
+
+  
     <div class="carousel-item">
-      <img src="https://turkmenistan.gov.tm/storage/app/media/Images/2024/02-2024/12022024/120224-01-basseyn.jpg" class="d-block w-100" alt="">
+      <img src="https://turkmenistan.gov.tm/storage/app/media/Images/2024/02-2024/12022024/120224-01-basseyn.jpg"
+           class="d-block w-100" alt="Boxing heavy bag">
     </div>
+
+  
     <div class="carousel-item">
-      <img src="https://resources.fina.org/photo-resources/2024/11/06/76e5e331-f7b3-42f7-93da-ae63826757d1/20241102_SWC-Day3-Heats-UW_Andy-Chua-001.jpg?width=464&height=261" class="d-block w-100" alt="">
+      <img src="https://resources.fina.org/photo-resources/2024/11/06/76e5e331-f7b3-42f7-93da-ae63826757d1/20241102_SWC-Day3-Heats-UW_Andy-Chua-001.jpg?width=464&height=261"
+           class="d-block w-100" alt="Boxing training">
     </div>
+
   </div>
 
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon"></span>
+  <button class="carousel-control-prev" type="button"
+          data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
   </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-    <span class="carousel-control-next-icon"></span>
+
+  <button class="carousel-control-next" type="button"
+          data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
   </button>
-</div>
+
 
 <div class="container mt-5">
   <div class="row g-4 justify-content-center">
@@ -59,6 +131,7 @@
         <div class="card-body">
           <h5 class="card-title">Germany grabs gold while Lamothe lands second title</h5>
           <p class="card-text">6hrs ago</p>
+              <a href="https://www.youtube.com/watch?v=qZdElj2s1jU&list=PLg25OJAWYpDLUl95p8D_so1wUIckZzfTO" class="btn btn-primary">watch</a>
         </div>
       </div>
     </div>
@@ -69,6 +142,7 @@
         <div class="card-body">
           <h5 class="card-title">Tomblin secures golden double at Medellin World Cup</h5>
           <p class="card-text">1d ago</p>
+              <a href="https://www.youtube.com/watch?v=2jJm1VF42FM" class="btn btn-primary">watch</a>
         </div>
       </div>
     </div>
@@ -79,6 +153,7 @@
         <div class="card-body">
           <h5 class="card-title">Energised Sanchez back from the brink of retirement</h5>
           <p class="card-text">3d ago</p>
+              <a href="https://www.youtube.com/watch?v=mIWVSV4GuQA" class="btn btn-primary">watch</a>
         </div>
       </div>
     </div>
@@ -90,6 +165,7 @@
         <div class="card-body">
           <h5 class="card-title">World Aquatics invites hosting bids for the 2027 and 2028 Open Water Swimming World Cups</h5>
           <p class="card-text">4hrs ago</p>
+              <a href="https://www.youtube.com/watch?v=U6DcxQ3hFbA" class="btn btn-primary">watch</a>
         </div>
       </div>
     </div>
@@ -100,6 +176,7 @@
         <div class="card-body">
           <h5 class="card-title">New-look USA conjure Acrobatic success in Colombia</h5>
           <p class="card-text">1hrs ago</p>
+              <a href="https://www.youtube.com/watch?v=LKpZUl7Lvqo" class="btn btn-primary">watch</a>
         </div>
       </div>
     </div>
@@ -110,6 +187,7 @@
         <div class="card-body">
           <h5 class="card-title">World Aquatics updates youth and junior athlete participation guidelines, aligning with IOC Recommendation</h5>
           <p class="card-text">1min ago</p>
+              <a href="https://www.youtube.com/watch?v=IihhnVez38I" class="btn btn-primary">watch</a>
         </div>
       </div>
     </div>
