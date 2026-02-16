@@ -27,6 +27,7 @@
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
         <li class="nav-item">
           <a class="nav-link active" href="main.html">Home</a>
         </li>
@@ -58,16 +59,20 @@
             <li><a class="dropdown-item" href="#">About us</a></li>
           </ul>
         </li>
+
       </ul>
 
-      <form class="d-flex" role="search" action="#" method="get">
-        <input class="form-control me-2" type="search" name="q" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Search</button>
-      </form>
+      <div class="d-flex ms-auto align-items-center">
+          <form class="d-flex me-3" role="search" action="#" method="get">
+            <input class="form-control me-2" type="search" name="q" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+
+  <a href="login.html" class="btn btn-outline-light">Log In</a>
+</div>
     </div>
   </div>
 </nav>
-
 <!-- TOAST -->
 <div class="position-fixed top-0 end-0 p-3" style="z-index: 9999; margin-top: 70px;">
   <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
