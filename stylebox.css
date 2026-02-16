@@ -1,0 +1,83 @@
+
+    body{
+      background:
+        radial-gradient(circle at 20% 15%, rgba(220,53,69,.22), transparent 55%),
+        radial-gradient(circle at 80% 85%, rgba(13,110,253,.22), transparent 55%),
+        #0b1220;
+      color: #fff;
+      min-height: 100vh;
+    }
+
+   
+    .card{
+      background: rgba(255,255,255,.06);
+      border: 1px solid rgba(255,255,255,.12);
+      backdrop-filter: blur(8px);
+    }
+
+    .card-img-top{
+      height: 180px;
+      object-fit: cover;
+    }
+
+   
+    .clamp-3{
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+
+   
+    .toast-wrap{
+      z-index: 9999;
+      margin-top: 70px; 
+    }
+
+  
+    .list-group a{
+      text-decoration: none;
+    }
+ 
+      .card{
+      background: rgba(255,255,255,.06);
+      border: 1px solid rgba(255,255,255,.12);
+      backdrop-filter: blur(8px);
+      color: #fff;             
+    }
+
+
+    .card .text-muted{
+      color: rgba(255,255,255,.7) !important;
+    }
+
+
+    .card a{
+      color: #fff;
+    }
+    .card a:hover{
+      color: rgba(255,255,255,.85);
+    }
+
+
+
+    .hero-carousel img{
+        height: 350px;   
+        object-fit: cover;
+    }
+
+
+      
+    body{
+      background:
+        radial-gradient(circle at 20% 15%, rgba(220,53,69,.22), transparent 55%),
+        radial-gradient(circle at 80% 85%, rgba(13,110,253,.22), transparent 55%),
+        #0b1220;
+      color: #fff;
+      min-height: 100vh;
+    }
+
+        .hero-carousel img{
+      height: 200px;
+      object-fit: cover;
+    }
